@@ -1,0 +1,21 @@
+{
+  "name": "brandguard-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A local-first brand compliance review platform",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "multer": "^2.5.0",
+    "pdf-parse": "1.1.1",
+    "sql.js": "^1.13.0"
+  }
+}
